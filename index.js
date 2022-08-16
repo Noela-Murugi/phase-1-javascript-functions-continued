@@ -20,6 +20,7 @@ function wrapAdjective(wrap = "*"){
     }
 }
 
+
 function wrapAdjective(wrap = "||"){
     return function (adjective = "a dedicated programmer"){
         return `You are ${wrap}${adjective}${wrap}!`;
